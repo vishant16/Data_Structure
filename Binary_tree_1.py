@@ -16,7 +16,7 @@ def LevelOrder(root):
 
     while len(queue)>0:
 
-        #print first item data and delete it
+        #print first item data and delete
         print(queue[0].data)
         node=queue.pop(0)
 
